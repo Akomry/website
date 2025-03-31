@@ -1,3 +1,4 @@
+import flask
 from flask import *
 from flask_restx import *
 
@@ -10,6 +11,7 @@ class Index(Resource):
     def get(self):
         data = {'message': 'Hello World!'}
         return data, 200
+
 
 if __name__ == '__main__':
     app.run(debug=True)

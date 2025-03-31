@@ -1,23 +1,50 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import StarrySky from "@/components/StarrySky.vue";
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" width="125" height="125" />
+  <div class="dark">
+    <header>
 
-    <div class="wrapper">
+      <div class="wrapper">
+        <nav>
+          <RouterLink to="/" class="nav-li">Home</RouterLink>
+          <RouterLink to="/about" class="nav-li">About</RouterLink>
+        </nav>
+      </div>
+    </header>
+    <RouterView />
+    <starry-sky />
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
     </div>
-  </header>
-
-  <RouterView />
 </template>
 
-<style scoped>
+<style lang="scss">
+  @use "assets/base";
+  @use "sass:map";
+  @use "sass:math";
+
+
+  body {
+    height: 3000px;
+    background: #000000;
+    background: linear-gradient(
+    to top,
+            #000000 0%,
+            #000000 50%,
+            map.get(map.get(base.$themes, "dark"), "background") 100%,
+    );
+    color: map.get(map.get(base.$themes, "dark"), "text");
+    font-family: Consolas, sans-serif;
+  }
+
+  .nav-li {
+    padding: 10px;
+  }
+
+  a { color: inherit; }
+
+
 
 </style>
