@@ -154,7 +154,7 @@
       border-radius: 50%;
       opacity: math.div(math.random(50), 100) + 0.5;
 
-      animation: fade 10s linear infinite;
+      animation: fade 5s linear infinite;
       animation-delay: math.random(10000) * -1ms;
     }
     @keyframes fade {

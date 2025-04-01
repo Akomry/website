@@ -26,13 +26,16 @@ import Projects from "@/components/Projects.vue";
   @use "sass:map";
   @use "sass:math";
 
-  html {
+  :root {
     background: #000000;
+  }
+
+  :root * {
+    color: #e0e0e0;
   }
   
   body {
     height: 100%;
-    color: map.get(map.get(base.$themes, "dark"), "text");
     background: linear-gradient(
             to top,
             #000000 0%,
