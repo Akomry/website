@@ -14,3 +14,30 @@ $themes: (
    accent: #9747cd,
  ),
 );
+
+ .center {
+   align-items: center;
+   text-align: center;
+ }
+
+ .margin {
+   margin-left: 10%;
+   margin-right: 10%;
+
+ }
+
+ .cell {
+   @extend .margin;
+   border-radius: 15px;
+   padding: 30px;
+   background: rgba(0,0,0,0.2)
+ }
+
+ .flex {
+    display: flex;
+    flex-flow: wrap;
+  }
+ 
+ .font-bigger {
+   font-size: x-large;
+ }

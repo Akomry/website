@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import StarrySky from "@/components/StarrySky.vue";
+import Projects from "@/components/Projects.vue";
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import StarrySky from "@/components/StarrySky.vue";
       <div class="wrapper">
         <nav>
           <RouterLink to="/" class="nav-li">Home</RouterLink>
-          <RouterLink to="/about" class="nav-li">About</RouterLink>
+          <RouterLink to="/about" class="nav-li">About me</RouterLink>
         </nav>
       </div>
     </header>
@@ -25,17 +26,19 @@ import StarrySky from "@/components/StarrySky.vue";
   @use "sass:map";
   @use "sass:math";
 
-
-  body {
-    height: 3000px;
+  html {
     background: #000000;
+  }
+  
+  body {
+    height: 100%;
+    color: map.get(map.get(base.$themes, "dark"), "text");
     background: linear-gradient(
-    to top,
+            to top,
             #000000 0%,
             #000000 50%,
             map.get(map.get(base.$themes, "dark"), "background") 100%,
-    );
-    color: map.get(map.get(base.$themes, "dark"), "text");
+    ) no-repeat;
     font-family: Consolas, sans-serif;
   }
 
