@@ -28,6 +28,7 @@ import HeaderNav from "@/components/HeaderNav.vue"
   
   .background {
     height: 250%;
+    width: 100%;
     position:absolute;
     top:0;
     left:0;
