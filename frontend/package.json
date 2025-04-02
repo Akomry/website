@@ -12,12 +12,16 @@
   },
   "dependencies": {
     "@floating-ui/vue": "^1.1.6",
+    "@iconify/vue": "^4.3.0",
+    "@unhead/vue": "^2.0.3",
     "axios": "^1.8.4",
     "iconify-icon": "^2.3.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
+    "@iconify/json": "^2.2.323",
+    "@tomjs/vite-plugin-iconify": "^1.2.1",
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "^22.13.9",
     "@vitejs/plugin-vue": "^5.2.1",

@@ -1,4 +1,5 @@
 <template>
+  <div id="space">
    <div class="star"></div>
    <div class="star"></div>
    <div class="star"></div>
@@ -130,8 +131,212 @@
    <div class="star"></div>
    <div class="star"></div>
    <div class="star"></div>
+   <div class="star"></div> <div class="star"></div>
    <div class="star"></div>
    <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div> <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div> <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div> <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div> <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div> <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div> <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+   <div class="star"></div>
+  </div>
 </template>
 
 <style lang="scss">
@@ -147,8 +352,8 @@
       $size: math.random(5);
 
       position: absolute;
-      top: math.random(350) - 1 + vh;
-      left: math.random(101) - 1 + vw;
+      top: math.random(250) - 1 + vh;
+      left: math.random(100) - 1 + vw;
       width: $size + px;
       height: $size + px;
       border-radius: 50%;

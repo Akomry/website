@@ -1,24 +1,20 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import StarrySky from "@/components/StarrySky.vue";
-import Projects from "@/components/Projects.vue";
+import HeaderNav from "@/components/HeaderNav.vue"
 </script>
 
 <template>
-  <div class="dark">
-    <header>
+  <div class="background">
+    <div class="dark">
 
-      <div class="wrapper">
-        <nav>
-          <RouterLink to="/" class="nav-li">Home</RouterLink>
-          <RouterLink to="/about" class="nav-li">About me</RouterLink>
-        </nav>
-      </div>
-    </header>
-    <RouterView />
-    <starry-sky />
+      <header-nav />
+      <RouterView />
+
+      <starry-sky />
 
     </div>
+  </div>
 </template>
 
 <style lang="scss">
@@ -26,23 +22,22 @@ import Projects from "@/components/Projects.vue";
   @use "sass:map";
   @use "sass:math";
 
-  :root {
-    background: #000000;
-  }
-
   :root * {
     color: #e0e0e0;
   }
   
-  body {
-    height: 100%;
+  .background {
+    height: 250%;
+    position:absolute;
+    top:0;
+    left:0;
     background: linear-gradient(
             to top,
-            #000000 0%,
+            #000000 -10%,
             #000000 50%,
             map.get(map.get(base.$themes, "dark"), "background") 100%,
     ) no-repeat;
-    font-family: Consolas, sans-serif;
+    font-family: "YaHei Consolas Hybrid", Consolas, Inconsolata, sans-serif;
   }
 
   .nav-li {
