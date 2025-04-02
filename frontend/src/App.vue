@@ -34,7 +34,7 @@ import HeaderNav from "@/components/HeaderNav.vue"
     background: linear-gradient(
             to top,
             #000000 -10%,
-            #000000 30%,
+            #000000 50%,
             map.get(map.get(base.$themes, "dark"), "background") 100%,
     ) no-repeat;
     font-family: "YaHei Consolas Hybrid", Consolas, Inconsolata, sans-serif;
