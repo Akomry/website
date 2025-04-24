@@ -15,7 +15,7 @@ import { Icon } from '@iconify/vue'
     <div style="min-height: 100vh;">
       <!-- Welcome text -->
       <br style="margin-top: 8%">
-      <pre class="center font-bigger">
+      <pre class="center screen-width">
 ┌─────────────────────────────────────────────┐
 │                  _  _              __       │
 │  ___  _ __ ___  (_)| | __ ___     / _| _ __ │
@@ -50,6 +50,12 @@ import { Icon } from '@iconify/vue'
     }
     &:active {
       transform: scale(97.5%);
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    body {
+      font-size: 30px;
     }
   }
 

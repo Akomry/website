@@ -7,7 +7,7 @@
 
     <div>
       <a href="https://github.com/Akomry/makeyourownapp-jam" target="_blank" rel="external nofllow noopener">
-        <img class="rounded card" src="../components/icons/Illustration3.png" alt="makeyourownapp-jam" width="300">
+        <img class="rounded card img" src="../components/icons/Illustration3.png" alt="makeyourownapp-jam">
       </a>
       <br>
       <span>Make your own app! game jam</span>
@@ -41,7 +41,7 @@
 
   .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(24rem, auto));
+    grid-template-columns: repeat(auto-fill, minmax(10rem, auto));
     gap: 2rem;
   }
 
@@ -60,5 +60,9 @@
 
   .rounded {
     border-radius: 15px;
+  }
+
+  .img {
+    width: 200px;
   }
 </style>

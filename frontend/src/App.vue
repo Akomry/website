@@ -25,9 +25,9 @@ import HeaderNav from "@/components/HeaderNav.vue"
   :root * {
     color: #e0e0e0;
   }
-  
+
   .background {
-    height: 250%;
+    height: 100%;
     width: 100%;
     position:absolute;
     top:0;
@@ -38,7 +38,12 @@ import HeaderNav from "@/components/HeaderNav.vue"
             #000000 50%,
             map.get(map.get(base.$themes, "dark"), "background") 100%,
     ) no-repeat;
+    resize: both;
     font-family: "YaHei Consolas Hybrid", Consolas, Inconsolata, sans-serif;
+  }
+
+  body {
+    background: black
   }
 
   .nav-li {
