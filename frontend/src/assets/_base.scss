@@ -37,6 +37,10 @@ $themes: (
     display: flex;
     flex-flow: wrap;
   }
+
+ .space-around {
+   justify-content: space-between;
+ }
  
  .font-bigger {
    font-size: x-large;
