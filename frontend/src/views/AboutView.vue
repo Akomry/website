@@ -34,11 +34,51 @@
           I'm a beginner vocaloid producer, using FL Studio, SynthesizerV and some random knowledge I acquired on the internet.
           Also been self-taught bass and guitar for 3 years now, have random skills on piano when absolutely needed.
           Maybe one day i'll commit on learning drums and saxophone.
-          Huge Kasane Teto fan, KAFU enjoyer, Ado follower, maybe I should make a public playlist for you to check :think:
+          Huge Kasane Teto fan, KAFU enjoyer, Ado follower, Gloryhammer headbanger, just to name a few.
+          Maybe I should make a public playlist for you to check :think:
         </p>
 
         <br>
-        <p>Want a linktree ? Have one</p>
+        <h2 style="text-decoration: underline">Anime and manga stuff</h2>
+        <p>
+          Steins;Gate fan, NGNL-Zero's my fav animated film all-time, is there more to explain?
+          Jokes apart, i'm not a HUGE anime watcher, but i'm still an anime enjoyer. Working at an anime association 'round home.
+          <br>[Insérer paragraphe pertinent]
+        </p>
+
+        <br>
+        <h2 style="text-decoration: underline">Video game stuff</h2>
+        <p>
+          I'm playing a bit too much roguelites I think- <br>
+          Huge fan of Mateusz Skutnik's works, like Submachine (Legacy), Covert Front and Slice of Sea. If you like good ol'
+          point and clicks, check that guy out, he's on those games since 2005. So yeah, I use to play a heck lot of flash games.
+
+          <br>[Insérer paragraphe utile]
+        </p>
+
+        <br>
+        <h2 style="text-decoration: underline">Art stuff</h2>
+        <p>
+          I'm drawing on paper and on photoshop sometimes when I'm bored (and maybe at work too). Check my instagram for more pics, but here,
+          you can have some.
+
+          <br>[Penser à inclure des photos !!]
+        </p>
+
+        <br>
+        <h2 style="text-decoration: underline">Telecom stuff</h2>
+        <p>
+          I'm studying telecommunications, so obviously I have some knowledge and interest about it.
+          I'm planning on making guitar pedals (an overdrive one seems really easy to make, only take some LC filters)
+          and maybe a modular MOOG synthesizer if I ever find motivation to build one.
+          I know the basics about amplutide and frequency modulation, QAM, spectre analysis, fibre optics, electronics...
+          And i hopefully plan to lean more :D
+          <br>[Insérer de la SCIENCE]
+        </p>
+
+
+        <br>
+        <p>Want a linktree ? Have one.</p>
         <ul>
           <li><a href="">Backloggd</a></li>
           <li><a href="">Steam</a></li>
@@ -46,6 +86,8 @@
           <li><a href="">GitHub</a></li>
           <li><a href="">Itch.io</a></li>
           <li><a href="">SoundCloud</a></li>
+          <li><a href="">AniList</a></li>
+          <li><a href="">Instagram</a></li>
         </ul>
       </div>
       <div>

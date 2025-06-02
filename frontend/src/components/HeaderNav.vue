@@ -1,5 +1,6 @@
 <template>
   <nav class="font-bigger">
+    <RouterLink to="/cv" class="nav-li">Web Resume</RouterLink>
     <RouterLink to="/about" class="nav-li">About me</RouterLink>
     <RouterLink to="/" class="nav-li">Home</RouterLink>
   </nav>
