@@ -45,3 +45,14 @@ $themes: (
  .font-bigger {
    font-size: x-large;
  }
+
+ .marginauto {
+   margin: auto;
+ }
+
+ .locale-changer select {
+  border: 2px solid #7f5be1;
+  background: #2f27ce;
+  padding: 10px;
+  transition: 1s;
+ }

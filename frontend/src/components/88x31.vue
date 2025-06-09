@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h3 class="center">There, have cool old-fashioned 88x31 buttons</h3>
+  <h3 class="center">{{ $t('home.buttons') }}</h3>
   <div class="wrapper flex">
     <a href="https://tralala.fr.eu.org" title="tralala.fr.eu.org"><img src="../components/icons/tralala-88x31.gif" alt="tralala.fr.eu.org" height="31" width="88"></a>
     <a href="https://fransgenre.fr/" title="fransgenre.fr"><img src="../components/icons/estrogen-88x31.gif" alt="fransgenre.fr" height="31" width="88"></a>

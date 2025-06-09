@@ -80,14 +80,13 @@
         <br>
         <p>Want a linktree ? Have one.</p>
         <ul>
-          <li><a href="">Backloggd</a></li>
-          <li><a href="">Steam</a></li>
-          <li><a href="">Discord</a></li>
-          <li><a href="">GitHub</a></li>
-          <li><a href="">Itch.io</a></li>
-          <li><a href="">SoundCloud</a></li>
-          <li><a href="">AniList</a></li>
-          <li><a href="">Instagram</a></li>
+          <li><a href="https://backloggd.com/u/Akorona/">Backloggd</a></li>
+          <li><a href="https://steamcommunity.com/profiles/76561198347930009/">Steam</a></li>
+          <li><a href="https://discord.com/users/281342667781308417/">Discord</a></li>
+          <li><a href="https://github.com/Akomry/">GitHub</a></li>
+          <li><a href="https://akorona.itch.io/">Itch.io</a></li>
+          <li><a href="https://soundcloud.com/akorona/">SoundCloud</a></li>
+          <li><a href="https://anilist.co/user/Akorona/">AniList</a></li>
         </ul>
       </div>
       <div>

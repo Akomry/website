@@ -52,6 +52,10 @@ import HeaderNav from "@/components/HeaderNav.vue"
 
   a { color: inherit; }
 
-
-
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
 </style>

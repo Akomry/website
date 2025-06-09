@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import {RouterLink} from "vue-router";
 </script>
 
 <template>
-  <h3 class="center">Some cool projects I worked on</h3>
+  <h3 class="center">{{ $t('home.projects') }}</h3>
   <div class="center card-container">
 
     <div>
@@ -14,20 +15,36 @@
     </div>
 
     <div>
-      <a class="card" href="https://github.com/Akomry/sae302-chat">
-        <img class="rounded card" src="" alt="sae302-chat" width="300">
-      </a>
+      <RouterLink to="/sae302" class="nav-li">
+        <img class="rounded card" src="../components/images/sae302-screen.png" alt="sae302-chat" width="200">
+      </RouterLink>
       <br>
       <span>Communication app</span>
     </div>
 
     <div>
-      <a class="card" href="https://github.com/Akomry/website">
-        <img class="rounded card" src="" alt="website" width="300">
+      <a class="card" href="https://github.com/Akomry/website" target="_blank" rel="external nofllow noopener">
+        <img class="rounded card" src="../components/images/website.png" alt="website" width="200">
       </a>
       <br>
       <span>Current website</span>
     </div>
+    <div>
+      <RouterLink to="/sae201" class="nav-li">
+        <img class="rounded card" src="../components/images/schema_reseau.png" alt="sae201" width="200">
+      </RouterLink>
+      <br>
+      <span>Network Project</span>
+    </div>
+    <div>
+      <RouterLink to="/sae301" class="nav-li">
+        <img class="rounded card" src="../components/images/sae301-scheme.jpg" alt="sae301" width="200">
+      </RouterLink>
+      <br>
+      <span>Electronics</span>
+    </div>
+
+
   </div>
 </template>
 

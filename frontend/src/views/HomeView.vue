@@ -24,7 +24,7 @@ import { Icon } from '@iconify/vue'
 │ \___||_| |_| |_||_||_|\_\\___/(_)|_|  |_|   │
 └─────────────────────────────────────────────┘</pre>
       <div class="center">
-        <h1>Welcome to my website !</h1>
+        <h1>{{ $t('home.welcome') }}</h1>
         <button class="scroll-indicator" style="margin-top: 12%" @click="scrollToProjects()">
           <Icon icon="mingcute:down-line" style="width: 3rem; height: 3rem;" width="3rem" />
         </button>
