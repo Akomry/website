@@ -80,5 +80,8 @@
   .emote {
     height: 3rem;
   }
+  p {
+    text-align: justify;
+  }
 
 </style>
