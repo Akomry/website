@@ -43,5 +43,15 @@
 </template>
 
 <style scoped lang="scss">
-
+  p {
+    text-align: justify;
+  }
+  img {
+    width: 40dvw;
+  }
+  @media screen and (min-width: 900px) {
+    img {
+      max-width: 30dvw;
+    }
+  }
 </style>

@@ -14,7 +14,7 @@
     <p class="marginauto">
       {{ $t('alternance.body2') }}
     </p>
-    <img class="marginauto" src="../components/images/impactiv.svg" alt="impactiv-logo" width="300">
+    <img class="marginauto" src="../components/images/impactiv.svg" alt="impactiv-logo" >
   </div>
   <br>
   <h2>{{ $t('alternance.what') }}</h2>
@@ -23,7 +23,7 @@
       <p>
         {{ $t('alternance.what1') }}
       </p>
-      <img class="marginauto" src="../components/images/bt4.png" alt="bt4" width="300">
+      <img class="marginauto" src="../components/images/bt4.png" alt="bt4" >
     </div>
     <p>
       {{ $t('alternance.what2') }}
@@ -45,7 +45,7 @@
       {{ $t('alternance.learn2') }}
     </p>
     <div class="grid">
-      <img class="marginauto" src="../components/images/debug.png" alt="debug-screen" width="300">
+      <img class="marginauto" src="../components/images/debug.png" alt="debug-screen" >
       <p class="marginauto">
         {{ $t('alternance.learn3') }}
       </p>
@@ -57,7 +57,7 @@
       <p>
         {{ $t('alternance.learn5') }}
       </p>
-      <img class="marginauto" src="../components/images/mender.png" alt="mender-logo" width="400">
+      <img class="marginauto" src="../components/images/mender.png" alt="mender-logo">
     </div>
     <p>
       {{ $t('alternance.learn6') }}
@@ -78,5 +78,15 @@
 </template>
 
 <style scoped lang="scss">
-
+  p {
+    text-align: justify;
+  }
+  img {
+    width: 40dvw;
+  }
+  @media screen and (min-width: 900px) {
+    img {
+      max-width: 20dvw;
+    }
+  }
 </style>
