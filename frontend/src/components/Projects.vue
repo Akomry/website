@@ -11,7 +11,7 @@ import {RouterLink} from "vue-router";
         <img class="rounded card img" src="../components/icons/Illustration3.png" alt="makeyourownapp-jam">
       </a>
       <br>
-      <span>Make your own app! game jam</span>
+      <span>{{ $t('projects.yawca') }}</span>
     </div>
 
     <div>
@@ -19,7 +19,7 @@ import {RouterLink} from "vue-router";
         <img class="rounded card" src="../components/images/sae302-screen.png" alt="sae302-chat" width="200">
       </RouterLink>
       <br>
-      <span>Communication app</span>
+      <span>{{ $t('projects.sae302') }}</span>
     </div>
 
     <div>
@@ -27,21 +27,21 @@ import {RouterLink} from "vue-router";
         <img class="rounded card" src="../components/images/website.png" alt="website" width="200">
       </a>
       <br>
-      <span>Current website</span>
+      <span>{{ $t('projects.website') }}</span>
     </div>
     <div>
       <RouterLink to="/sae201" class="nav-li">
         <img class="rounded card" src="../components/images/schema_reseau.png" alt="sae201" width="200">
       </RouterLink>
       <br>
-      <span>Network Project</span>
+      <span>{{ $t('projects.sae201') }}</span>
     </div>
     <div>
       <RouterLink to="/sae301" class="nav-li">
         <img class="rounded card" src="../components/images/sae301-scheme.jpg" alt="sae301" width="200">
       </RouterLink>
       <br>
-      <span>Electronics</span>
+      <span>{{ $t('projects.sae301') }}</span>
     </div>
 
 

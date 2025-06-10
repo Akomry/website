@@ -113,6 +113,13 @@ const i18n = createI18n({
                 feelingstitle: 'My feelings',
                 feelings: '  It\'s the project I loved the most this year. Having an appetite for Linux systems and their manipulation, I enjoyed working on this project.'
             },
+            projects: {
+                yawca: 'Make your own app! game jam',
+                sae302: 'Communication app',
+                website: 'Current website',
+                sae201: 'Network project',
+                sae301: 'Electronics project'
+            }
 
 
 
@@ -226,6 +233,15 @@ const i18n = createI18n({
                 feelingstitle: 'Mon ressenti',
                 feelings: ' C\'est la SAÉ que j\'ai préféré de l\'année. Ayant une appétence pour les systèmes Linux et leur manipulation, j\'ai beaucoup apprécié travailler sur ce projet. '
             },
+
+            projects: {
+                yawca: 'Game jam Make your own app!',
+                sae302: 'Applications communicantes',
+                website: 'Site actuel',
+                sae201: 'Projet réseau',
+                sae301: 'Projet d\'électronique'
+            }
+
 
 
 
