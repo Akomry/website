@@ -41,8 +41,40 @@ const i18n = createI18n({
                 ad: 'Setup and manage an Active Directory infrastructure',
                 db: 'Setup and manage a Database Management System',
                 automate: 'Automate administration tasks using scripting and Ansible'
+            },
+            about: {
+                title: 'Who am I?',
 
+                hey: 'Heya ! Ako here.',
+                me: 'I\'m a 19-year-old proud transfem and programming passionate. I develop softwares, scripts and maintain my own\n' +
+                    '          server infrastructure in my free time.',
+                estrogen: 'On E since 27th May, 2025',
 
+                computerstuff: 'Computer stuff',
+                arch: 'i use arch btw',
+                comp1: 'Passionate about linux, its architecture, how it works, ',
+                comp2: ', and plan on someday make a LFS.\n' +
+                    '          I\'m self-hosting game servers, this website and several other services through systemd units and containers.\n' +
+                    '          Maybe it\'s time to host a ptero install? Anyways.\n' +
+                    '          I\'m coding in Java, sometimes (rarely) in JS/TS, scripting using bash.',
+
+                musicstuff: 'Music stuff',
+                music: ' I\'m a beginner vocaloid producer, using FL Studio, SynthesizerV and some random knowledge I acquired on the internet. Also been self-taught bass and guitar for 3 years now, have random skills on piano when absolutely needed. Maybe one day i\'ll commit on learning drums and saxophone. Huge Kasane Teto fan, KAFU enjoyer, Ado follower, Gloryhammer headbanger, Zutomayo everlasting fan, just to name a few. Maybe I should make a public playlist for you to check :think:',
+
+                animestuff: 'Anime and manga stuff',
+                anime: ' Steins;Gate fan, NGNL-Zero\'s my fav animated film all-time, is there more to explain? Jokes apart, i\'m not a HUGE anime watcher, but i\'m still an anime enjoyer. Working at an anime association \'round home. ',
+
+                videogamestuff: 'Video game stuff',
+                videogames: ' I\'m playing a bit too much roguelites I think-\n' +
+                    'Huge fan of Mateusz Skutnik\'s works, like Submachine (Legacy), Covert Front and Slice of Sea. If you like good ol\' point and clicks, check that guy out, he\'s on those games since 2005. So yeah, I use to play a heck lot of flash games. ',
+
+                artstuff: 'Art stuff',
+                art: ' I\'m drawing on paper and on photoshop sometimes when I\'m bored (and maybe at work too). Check my instagram for more pics, but here, you can have some. ',
+
+                telecomstuff: 'Telecom stuff',
+                telecom: ' I\'m studying telecommunications, so obviously I have some knowledge and interest about it. I\'m planning on making guitar pedals (an overdrive one seems really easy to make, only take some LC filters) and maybe a modular MOOG synthesizer if I ever find motivation to build one. I know the basics about amplutide and frequency modulation, QAM, spectre analysis, fibre optics, electronics... And i hopefully plan to lean more :D ',
+
+                linktree: 'Want a linktree? Have one.'
 
             }
         },
@@ -83,6 +115,40 @@ const i18n = createI18n({
                 ad: 'Installer et configurer un serveur Active Directory',
                 db: 'Mettre en place et maintenir une SGBD',
                 automate: 'Automatiser les tâches d\'administration avec du scripting et Ansible',
+            },
+            about: {
+                title: 'Qui suis-je?',
+
+                hey: 'Salut ! C\'est Ako.',
+                me: 'Je suis une transfem (et fière de l\'être) de 19 ans passionée de programmation. Je développe des logiciels, des scripts et maintiens ma propre\n' +
+                    'infrastructure serveur dans mon temps libre.',
+                estrogen: 'Sous estrogène depuis le 27 mai 2025',
+
+                computerstuff: 'Informatique',
+                arch: 'j\'utilise arch btw',
+                comp1: 'Passionnée de Linux, son architecture, comment ça fonctionne, ',
+                comp2: ', et je prévois de faire un LFS un de ces jours.\n' +
+                    '          J\'héberge en local des serveurs de jeux, ce site et d\'autres services avec des unités systemd et des conteneurs.\n' +
+                    '          Peut être serait-il temps d\'installer une instance ptero? Bref.\n' +
+                    '          Je code en Java, parfois (raremenet) en JS/TS, et je fais du scripting bash.',
+
+                musicstuff: 'Musique',
+                music: ' Je suis une productrice vocaloid débutante, utilisant FL Studio, SynthesizerV et des connaissances aléatoires que j\'ai pu acquérir sur internet. J\'apprends aussi depuis 3 ans la guitare et la basse en autodidacte et j\'ai quelques compétences basiques de piano pour si j\'ai vraiment besoin. Peut être qu\'un jour je me lancerai enfin à la batterie et au saxophone. Grande fan de Kasane Teto, consommatrice de KAFU, Fan d\'Ado, Gloryhammer headbanger, Fan inconditionnelle de Zutomayo, pour en citer quelques uns. Peut être que je vous ferai une playlist publique pour vous faire écouter tout ça :think:',
+
+                animestuff: 'Animes et manga',
+                anime: 'Fan de Steins;Gate, NGNL-Zero est mon film d\'animation préféré de tous les temps, que dire de plus ? Blague à part, je ne suis pas une ENORME consommatrice d\'animés, mais j\'apprécie en consommer. Je travaille dans une asso d\'animés par chez moi. ',
+
+                videogamestuff: 'Jeux vidéos',
+                videogames: ' Je joue un peu trop aux roguelikes je crois-' +
+                    'Grande fan des oeuvres de Mateusz Skutnik, comme Submachine (Legacy), Covert Front et Slice of Sea. Si vous aimez les bon vieux point&clicks, allez voir son travail, il planche sur ces jeux depuis 2015. Donc euh ouais, j\'ai grandi avec les jeux flash. ',
+
+                artstuff: 'Art',
+                art: 'Je dessine sur papier et parfois sur photoshop quand je m\'ennuie (et peut être au travail aussi). Checkez mon instagram quelques photos... m\'enfin quoique, vous pouvez en avoir quelques unes ici.',
+
+                telecomstuff: 'Télécom',
+                telecom: 'J\'étudie les télécommunications, donc évidemment que j\'en ai des connaissances et de l\'intérêt. Je prévoie de faire des pédales de guitares (une pédale d\'overdrive ça a l\'air tellement simple à faire, vraiment juste des filtres LC) et peut être un synthétiseur modulaire MOOD si je trouve un jour la motivation d\'en faire un. Je connais les bases sur les modulations d\'amplitude, de fréquence, les MAQ, les analyses de spectre, la fibre optique, l\'électronique...Et j\'espère pouvoir en apprendre plus :D ',
+
+                linktree: 'Tu veux un linktree ? Tiens, cadeau.'
             }
         }
     }
