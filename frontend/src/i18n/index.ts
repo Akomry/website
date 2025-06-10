@@ -89,7 +89,20 @@ const i18n = createI18n({
                 feelingstitle: 'My feelings',
                 feelings: 'My favorite project of the year, again. It was fun to develop such an app, and I was thrilled to finally code in Java and/or OOP.'
 
-            }
+            },
+            sae301: {
+                title: "What is SAE301?",
+                body1: 'This project was dedicated to make amplitude modulation on a RZ signal. We studied the whole circuitry, made the electronic schemes and calculated every component value to make everything work. We used an NE-555 to generate an NRZ signal, then used a programmable circuit to convert it to an RZ signal, then used a Wien bridge oscillator to generate a carrier sine that we multiplied to the RZ signal to modulate it. After modulation, we made a synchronous demodulation using the generated carrier, a multiplier and a low-pass filter.',
+                learntitle: 'What I learnt',
+                learn1: 'How an amplitude modulation works (+ demodulation)',
+                learn2: 'How to make an oscillator from scratch',
+                learn3: 'To brainstorm and work as a group',
+                learn4: 'How a NE-555 works to generate an NRZ signal',
+                feelingstitle: 'My feelings',
+                feelings: ' This was complicated. We had to do a lot of calculus and brainstorming, deduce spectral densities of the various signals, without doing any circuitry. But still it was fun and interesting to learn. '
+            },
+
+
 
         },
         fr: {
@@ -175,7 +188,18 @@ const i18n = createI18n({
                 learn3: 'Comment communiquer entre deux applications via TCP',
                 feelingstitle: 'Mon ressenti',
                 feelings: 'Encore mon projet préféré de l\'année. C\'était fun de développer ce genre d\'application, et j\'étais excitée de pouvoir coder en Java/POO.'
+            },
 
+            sae301: {
+                title: "Qu'est-ce que la SAE301?",
+                body1: "Ce projet était dédié à la mise en pratique d'une modulation d'amplitude sur un signal RZ. Nous avons étudié le circuit dans un bureau d'étude, établi des schémas électroniques et calculé la valeur de tous les composants pour que tout fonctionne. Nous avons utilisé un NE-555 pour générer un signal NRZ, puis l'avons envoyé dans une maquette programmable pour le transformer en RZ, puis avons utilisé un oscillateur à pont de Wien pour générer une sinusoïde porteuse qu'on a multiplié au signal RZ pour le moduler. Après cette modulation, nous avons mis en place une démodulation synchrone en utilisant la porteuse générée, un multiplieur et un filtre passe-bas.",
+                learntitle: 'Ce que j\'ai appris',
+                learn1: 'Comment une modulation d\'amplitude fonctionne (+ sa démodulation)',
+                learn2: 'Comment créer un oscillateur à partir de rien',
+                learn3: 'Comment brainstormer et faire un bureau d\'études en groupe',
+                learn4: 'Comment fonctionne un NE-555 pour générer un signal NRZ',
+                feelingstitle: 'Mon ressenti',
+                feelings: "C'était compliqué. On a dû faire beaucoup de calculs et de brainstorming, déduire des densités spectrales de puissance des différents signaux sans faire aucun montage. Mais c'était tout de même fun et intéressant à apprendre."
             },
 
         }

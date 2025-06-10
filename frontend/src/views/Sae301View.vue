@@ -4,15 +4,11 @@
 
 <template>
 <div class="margin">
-  <h2>What is SAE301?</h2>
+  <h2>{{ $t('sae301.title') }}</h2>
   <div class="grid">
     <img style="grid-column: 2; grid-row: 1;" src="../components/images/sae301-scheme.jpg" alt="file_scheme" width="500">
     <p class="marginauto" style="grid-column: 1; grid-row: 1;">
-      This project was dedicated to make amplitude modulation on a RZ signal. We studied the whole circuitry, made the
-      electronic schemes and calculated every component value to make everything work.
-      We used an NE-555 to generate an NRZ signal, then used a programmable circuit to convert it to an RZ signal,
-      then used a Wien bridge oscillator to generate a carrier sine that we multiplied to the RZ signal to modulate it.
-      After modulation, we made a synchronous demodulation using the generated carrier, a multiplier and a low-pass filter.
+      {{ $t('sae301.body1') }}
     </p>
   </div>
 </div>
@@ -27,21 +23,18 @@
   <hr>
   -->
   <div>
-    <h2>What I learnt</h2>
+    <h2>{{ $t('sae301.learntitle') }}</h2>
     <ul>
-      <li>How an amplitude modulation works (+ demodulation)</li>
-      <li>How to make an oscillator from scratch</li>
-      <li>To brainstorm and work as a group</li>
-      <li>How a NE-555 works to generate an NRZ signal</li>
+      <li>{{ $t('sae301.learn1') }}</li>
+      <li>{{ $t('sae301.learn2') }}</li>
+      <li>{{ $t('sae301.learn3') }}</li>
+      <li>{{ $t('sae301.learn4') }}</li>
     </ul>
   </div>
   <div>
-    <h2>My feelings</h2>
+    <h2>{{ $t('sae301.feelingstitle') }}</h2>
     <div>
-      This was complicated. We had to do a lot of calculus and brainstorming,
-      deduce spectral densities of the various signals,
-      without doing any circuitry.
-      But still it was fun and interesting to learn.
+      {{ $t('sae301.feelings') }}
     </div>
   </div>
 </div>
