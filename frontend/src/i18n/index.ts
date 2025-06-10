@@ -76,7 +76,21 @@ const i18n = createI18n({
 
                 linktree: 'Want a linktree? Have one.'
 
+            },
+            sae302: {
+                title: "What is SAE302?",
+                body1: ' Basically, I had to recreate a communication app using JavaFX. From the very basics, I had to use SceneBuilder to create our graphical environment, then create the whole controller stack using callbacks. I then wrote a TCP server and client, and incorporated them in the client app. Even though we were guided through this project, only a few managed to finish it.',
+                body21: 'We also had to use git versioning, and the whole code is available to download on ',
+                body22: '. I used the Jetbrains\' IDE, IntelliJ.',
+                learntitle: 'What i learnt',
+                learn1: 'How to code in Java and in Object-Oriented Programming',
+                learn2: 'How to create a graphical application using JavaFX',
+                learn3: 'How to communicate between apps using TCP',
+                feelingstitle: 'My feelings',
+                feelings: 'My favorite project of the year, again. It was fun to develop such an app, and I was thrilled to finally code in Java and/or OOP.'
+
             }
+
         },
         fr: {
             nav: {
@@ -149,7 +163,21 @@ const i18n = createI18n({
                 telecom: 'J\'étudie les télécommunications, donc évidemment que j\'en ai des connaissances et de l\'intérêt. Je prévoie de faire des pédales de guitares (une pédale d\'overdrive ça a l\'air tellement simple à faire, vraiment juste des filtres LC) et peut être un synthétiseur modulaire MOOD si je trouve un jour la motivation d\'en faire un. Je connais les bases sur les modulations d\'amplitude, de fréquence, les MAQ, les analyses de spectre, la fibre optique, l\'électronique...Et j\'espère pouvoir en apprendre plus :D ',
 
                 linktree: 'Tu veux un linktree ? Tiens, cadeau.'
-            }
+            },
+            sae302: {
+                title: "Qu'est-ce que la SAE302?",
+                body1: ' Basiquement, j\'ai du recréer une application de communication en utilisant JavaFX. À partir des bases, j\'ai utilisé SceneBuilder pour créer l\'environnement graphique (FXML), puis j\'ai écrit les callbacks du contrôleur. J\'ai ensuite développé le serveur et le client TCP, que j\'ai incorporé dans l\'application. Même si on a été guidés dans le projet, seuls quelques uns ont réussi à le finir.',
+                body21: 'On a aussi utilisé du versionnement Git, et le code est disponible au téléchargement sur ',
+                body22: '. J\'ai utilisé l\'IDE de Jetbrains, IntelliJ.',
+                learntitle: 'Ce que j\'ai appris',
+                learn1: 'Comment coder en Java et en Programmation Orientée Objet',
+                learn2: 'Comment créer une application graphique avec JavaFX',
+                learn3: 'Comment communiquer entre deux applications via TCP',
+                feelingstitle: 'Mon ressenti',
+                feelings: 'Encore mon projet préféré de l\'année. C\'était fun de développer ce genre d\'application, et j\'étais excitée de pouvoir coder en Java/POO.'
+
+            },
+
         }
     }
 })

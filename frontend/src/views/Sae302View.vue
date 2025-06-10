@@ -5,13 +5,10 @@
 <template>
 <div class="margin">
 
-  <h2>What is SAE302?</h2>
+  <h2>{{$t('sae302.title')}}</h2>
   <div class="grid">
     <p class="marginauto">
-      Basically, I had to recreate a communication app using JavaFX.
-      From the very basics, I had to use SceneBuilder to create our graphical environment, then create the whole
-      controller stack using callbacks. I then wrote a TCP server and client, and incorporated them in the client app.
-      Even though we were guided through this project, only a few managed to finish it.
+      {{$t('sae302.body1')}}
     </p>
     <img class="marginauto" src="../components/images/sae302-screen.png" alt="app-screen" width="500">
   </div>
@@ -19,25 +16,24 @@
 
   <div class="grid">
     <img class="marginauto" src="../components/images/sae302-intellij.png" alt="intellij" width="700">
-    <p class="marginauto">We also had to use git versioning, and the whole code is available to download on
-      <a href="https://github.com/Akomry/sae302_applicom">GitHub</a>. I used the IntelliJ IDE.</p>
+    <p class="marginauto">{{$t('sae302.body21')}}
+      <a href="https://github.com/Akomry/sae302_applicom">GitHub</a>{{$t('sae302.body22')}}</p>
   </div>
   <br>
 
   <div class="grid">
     <div>
-      <h2>What I learnt</h2>
+      <h2>{{$t('sae302.learntitle')}}</h2>
       <ul>
-        <li>How to code in Java and in Object-Oriented Programming</li>
-        <li>How to create a graphical application using JavaFX</li>
-        <li>How to communicate between to apps using TCP</li>
+        <li>{{$t('sae302.learn1')}}</li>
+        <li>{{$t('sae302.learn2')}}</li>
+        <li>{{$t('sae302.learn3')}}</li>
       </ul>
     </div>
     <div>
-      <h2>My feelings</h2>
+      <h2>{{$t('sae302.feelingstitle')}}</h2>
       <p>
-        My favorite project of the year, again. It was fun to develop such an app, and I was thrilled to finally code in
-        Java and/or OOP.
+        {{$t('sae302.feelings')}}
       </p>
     </div>
   </div>
