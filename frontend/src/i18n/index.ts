@@ -101,6 +101,19 @@ const i18n = createI18n({
                 feelingstitle: 'My feelings',
                 feelings: ' This was complicated. We had to do a lot of calculus and brainstorming, deduce spectral densities of the various signals, without doing any circuitry. But still it was fun and interesting to learn. '
             },
+            sae201: {
+                title: "What is SAE201?",
+                body1: 'During this project, I proceeded to the installation simulation of a microenterprise\'s networking system. For this I used tools like OpenStack to create virtual machines and networks. Then, I installed various services on CentOS Stream 8 machines. Those services includes Apache, DNSMasq, Grafana & Prometheus, and Nextcloud. ',
+                body2: 'The simulated network was independant for each group. To access to our machines, we had to use virtual machines running Windows which had elastic IPs connected to our university\'s VPN.',
+                learntitle: 'What I learnt',
+                learn1: 'Install Linux services',
+                learn2: 'Create bash scripts and manage a Linux system',
+                learn3: 'Debug using tools such as Wireshark or TCPDump',
+                learn4: 'Manage firewall issues',
+                feelingstitle: 'My feelings',
+                feelings: '  It\'s the project I loved the most this year. Having an appetite for Linux systems and their manipulation, I enjoyed working on this project.'
+            },
+
 
 
 
@@ -201,6 +214,21 @@ const i18n = createI18n({
                 feelingstitle: 'Mon ressenti',
                 feelings: "C'était compliqué. On a dû faire beaucoup de calculs et de brainstorming, déduire des densités spectrales de puissance des différents signaux sans faire aucun montage. Mais c'était tout de même fun et intéressant à apprendre."
             },
+            sae201: {
+                title: "Qu'est-ce que la SAE201 ?",
+                body1: "Lors de ce projet, nous avons procédé à la simulation de l'installation d'un système informatique d'une micro-entreprise. Pour ce faire, nous avons utilisés des outils comme OpenStack pour créer des machines et des réseaux virtuels. Ensuite, nous avons installés divers services sur des machines sous CentOS Stream 8. Ces services incluent httpd/Apache pour du site web, dnsmasq pour la gestion de noms de domaines et de DHCP (attribution d'addresses IP, masques et DNS), Grafana pour de l'affichage des ressources des machines et NextCloud pour du stockage à distance. ",
+                body2: "Le réseau simulé était indépendant pour chaque groupe. Pour accéder aux machines de notre réseau, nous devions passer par des machines virtuels sous Windows au préalable qui avaient une adresse IP flottante liée au réseau VPN de l'UGA.\n",
+                learntitle: 'Ce que j\'ai appris',
+                learn1: 'Installer des services sous Linux',
+                learn2: 'Créer des scripts bash et gérer un système Linux',
+                learn3: 'Utiliser des outils comme Wireshark ou TCPDump',
+                learn4: 'Gérer des problèmes de pare-feu',
+                feelingstitle: 'Mon ressenti',
+                feelings: ' C\'est la SAÉ que j\'ai préféré de l\'année. Ayant une appétence pour les systèmes Linux et leur manipulation, j\'ai beaucoup apprécié travailler sur ce projet. '
+            },
+
+
+
 
         }
     }

@@ -5,38 +5,36 @@
 <template>
 <div class="margin">
   <div>
-    <h2>What is SAE201?</h2>
+    <h2>{{ $t('sae201.title') }}</h2>
     <div class="grid">
       <p class="marginauto">
-        During this project, I proceeded to the installation simulation of a microenterprise's networking system.
-        For this I used tools like OpenStack to create virtual machines and networks. Then, I installed various services
-        on CentOS Stream 8 machines. Those services includes Apache, DNSMasq, Grafana & Prometheus, and Nextcloud.
+        {{ $t('sae201.body1') }}
       </p>
       <img class="marginauto" src="../components/images/openstack.png" alt="openstack logo" width="300">
     </div>
   </div>
+  <br>
   <div class="grid">
     <img class="marginauto" src="../components/images/schema_reseau.png" alt="network_scheme" width="500">
     <p class="marginauto">
-      The simulated network was independant for each group. To access to our machines, we had to use virtual machines
-      running Windows which had elastic IPs connected to our university's VPN.
+      {{ $t('sae201.body2') }}
     </p>
     <br>
   </div>
   <div class="grid">
     <div>
-      <h2>What I learnt</h2>
+      <h2>{{ $t('sae201.learntitle') }}</h2>
       <ul>
-        <li>Install Linux services</li>
-        <li>Create bash scripts and manage a Linux system</li>
-        <li>Debug using tools such as Wireshark or TCPDump</li>
+        <li>{{ $t('sae201.learn1') }}</li>
+        <li>{{ $t('sae201.learn2') }}</li>
+        <li>{{ $t('sae201.learn3') }}</li>
+        <li>{{ $t('sae201.learn4') }}</li>
       </ul>
     </div>
     <div>
-      <h2>My feelings</h2>
+      <h2>{{ $t('sae201.feelingstitle') }}</h2>
       <p>
-        It's the project I loved the most this year. Having an appetite for Linux systems and their manipulation, I enjoyed
-        working on this project
+        {{ $t('sae201.feelings') }}
       </p>
     </div>
   </div>
