@@ -82,7 +82,7 @@ const i18n = createI18n({
                 body1: ' Basically, I had to recreate a communication app using JavaFX. From the very basics, I had to use SceneBuilder to create our graphical environment, then create the whole controller stack using callbacks. I then wrote a TCP server and client, and incorporated them in the client app. Even though we were guided through this project, only a few managed to finish it.',
                 body21: 'We also had to use git versioning, and the whole code is available to download on ',
                 body22: '. I used the Jetbrains\' IDE, IntelliJ.',
-                learntitle: 'What i learnt',
+                learntitle: 'What i learneed',
                 learn1: 'How to code in Java and in Object-Oriented Programming',
                 learn2: 'How to create a graphical application using JavaFX',
                 learn3: 'How to communicate between apps using TCP',
@@ -93,7 +93,7 @@ const i18n = createI18n({
             sae301: {
                 title: "What is SAE301?",
                 body1: 'This project was dedicated to make amplitude modulation on a RZ signal. We studied the whole circuitry, made the electronic schemes and calculated every component value to make everything work. We used an NE-555 to generate an NRZ signal, then used a programmable circuit to convert it to an RZ signal, then used a Wien bridge oscillator to generate a carrier sine that we multiplied to the RZ signal to modulate it. After modulation, we made a synchronous demodulation using the generated carrier, a multiplier and a low-pass filter.',
-                learntitle: 'What I learnt',
+                learntitle: 'What I learned',
                 learn1: 'How an amplitude modulation works (+ demodulation)',
                 learn2: 'How to make an oscillator from scratch',
                 learn3: 'To brainstorm and work as a group',
@@ -105,7 +105,7 @@ const i18n = createI18n({
                 title: "What is SAE201?",
                 body1: 'During this project, I proceeded to the installation simulation of a microenterprise\'s networking system. For this I used tools like OpenStack to create virtual machines and networks. Then, I installed various services on CentOS Stream 8 machines. Those services includes Apache, DNSMasq, Grafana & Prometheus, and Nextcloud. ',
                 body2: 'The simulated network was independant for each group. To access to our machines, we had to use virtual machines running Windows which had elastic IPs connected to our university\'s VPN.',
-                learntitle: 'What I learnt',
+                learntitle: 'What I learned',
                 learn1: 'Install Linux services',
                 learn2: 'Create bash scripts and manage a Linux system',
                 learn3: 'Debug using tools such as Wireshark or TCPDump',
@@ -119,9 +119,37 @@ const i18n = createI18n({
                 website: 'Current website',
                 sae201: 'Network project',
                 sae301: 'Electronics project'
+            },
+
+
+
+            alternance: {
+                title: "My apprenticeship",
+                body1: "For my second year of Networking and Telecommunications Bachelor at the 1st Technological Institute of Grenoble, I am doing an apprenticeship in the company Impactiv'. My apprenticeship is lasting for two years.",
+
+                whois: "Who is",
+                body2: "Impactiv’ is a small company with a dozen collaborators, located in La Tronche, Grenoble. We are selling a dynamic display solution for providers in community catering such as Elior, Compass or Sodexo. For example, we install screens and E-Ink ESLs (same technology as Amazon Kindle's screens) to display menus. Recently, Impactiv’ fused with Forgerz to form IDS Group, extending the catalog of software solutions we can offer to our clients.",
+
+                what: "What is my role at Impactiv' ?",
+                what1: "Today, my main mission regroups the whole production chain for the computer park. Indeed, our dynamic display solution relies on a web technology, and not every screen has an integrated web browser. To overcome this, I configure, install and maintain the whole computer park. In parallel with this, I'm desking/helping my tutor on technical support tasks.",
+                what2: "Therefore, the computer park ends up enormous; the machines' inventories are hard-written in multiple documents. That is why I started a project of developing an internal company solution in order to regroup all the information in one place, therefore easing the access to precious data that can help getting more efficient in tech support tasks",
+                what3: "Moreover, I maintain the Linux system image installed on our equipment configured and installed on each site: for example, I wrote a network fallback script that allows the machine to fall back to DHCP if the machine cannot ping the router (when there's a savage changement of IP scope, for example).",
+                what4: "Finally, aside from all that, I develop scripts and tools, like a bulk image compression script or a barcode scanner web app.",
+
+                learn: "What I learned",
+                learn1: "Thanks to my apprenticeship, I was able to discover various tools.",
+                learn2: "I improved my Git mastery (mostly GitLab), especially on branch management and on the issue system. I also learned a commit nomenclature and some rigor. Those were my first steps in the agile methods.",
+                learn3: "The whole computer park maintenance and tech support allowed me to improve in error finding and debugging. I had, multiple times, to dig in Linux logs, try hotfixes, and nowadays it's easier for me to identify problems in my code or in a preexisting infrastructure.",
+                learn4: "Working on the system images allowed me to develop my skills in bash an python. I learned how overlayfs works, as well as systemd units and I had my first steps containerizing using Docker. Moreover, I discovered mkosi, a tool created by the systemd team that can generate ready-to-use debian system images.",
+                learn5: "The computer park maintenance made me discover tools like Mender, a tool used to deploy updates onto the machines of a computer park. Moreover, you can make inventories of said machines (like network configuration, environment variables, or simply the state of the machine) and the execution of custom scripts. By the way, I was able to experiment with OpenVPN and was able to scratch the surface of its functions.",
+                learn6: "The Data Centralization app development made me learn and understand TypeScript, as well as NestJS and VueJS. I learned all this by self-taught using online docs.",
+                learn7: "Finally, I used Notion, a team collaboration tool for sharing pages, docs, resources, databases, etc. I had to write docs that I could share to colleagues.",
+
+                conclusion: "To conclude",
+                conclusion1: "This experience is enriching. Despite my first tutor leaving the company two months after starting my apprenticeship, I manage to keep considerable autonomy. I learn the world of working, teambuilding, and finally can have a concrete use of the knowledge I learned at school. Learning JavaScript and TypeScript were prolific and allowed me to develop this website."
+
+
             }
-
-
 
 
         },
@@ -240,12 +268,34 @@ const i18n = createI18n({
                 website: 'Site actuel',
                 sae201: 'Projet réseau',
                 sae301: 'Projet d\'électronique'
+            },
+
+            alternance: {
+                title: "Mon alternance",
+                body1: "Dans le cadre de ma deuxième année de BUT Réseaux et Télécommunications à l'IUT1 de Grenoble, j'étudie en alternance dans la société Impactiv'. Cette alternance est d'une durée de deux ans.",
+
+                whois: "Qui est",
+                body2: "Impactiv’ est une petite entreprise d’une dizaine de collaborateurs située à La Tronche, Grenoble. Nous proposons une solution d’affichage dynamique pour des prestataires de la restauration d’entreprises ou de collectivités comme Elior, Compass ou Sodexo. Par exemple, nous installons des écrans et des étiquettes connectées E-Ink (même technologie que les écrans de liseuses Kindle) pour afficher les menus. Récemment, Impactiv’ a fusionné avec Forgerz pour former IGS Group, étendant les solutions logicielles proposées à nos clients.",
+
+                what: "Quel est mon rôle chez Impactiv' ?",
+                what1: "Aujourd'hui, ma mission principale consiste en toute la chaîne de mise en production du parc informatique. En effet, notre solution d'affichage dynamique repose sur une technologie web, et tous les écrans ne possèdent pas de navigateur web intégré. Pour palier à celà, je configure, installe et maintiens l'ensemble du parc informatique. En parallèle, j'assiste mon tuteur aux tâches de support technique.",
+                what2: "Par conséquent, le parc informatique est volumineux; les informations d'inventaire de chaque site est noté en dur dans divers documents. Je me suis donc lancée dans le projet de faire une solution interne à l'entreprise destinée à regrouper toutes ces informations, afin de faciliter leur accès et d'affirmer leur véracité lors des tâches de support technique.",
+                what3: "De plus, je maintiens l'image système installée sur les équipements configurés et installés sur site : j'ai par exemple écrit un script de garde-fou réseau, permettant de basculer sur une configuration DHCP si la machine ne peut plus accéder à la passerelle (lors d'un changement de plan d'adressage IP sauvage par exemple).",
+                what4: "Enfin, à côté de tout cela, je développe des scripts et des outils, comme un script de compression d'images en lot ou une application web de scan de code-barres.",
+
+                learn: "Ce que j'ai appris",
+                learn1: "Grâce à ma formation en Alternance, j'ai pu découvrir différents outils.",
+                learn2: "J'ai amélioré ma maîtrise de Git (notamment GitLab), notamment pour la gestion des branches et du système d'issues. J'ai notamment appris une nomenclature pour les commits, et une rigueur d'utilisation. Ce fut mes premiers pas dans les méthodes agiles.",
+                learn3: "La maintenance du parc informatique et le support technique m'ont permis de m'améliorer dans la recherche d'erreurs et le débogage. J'ai du, à plusieurs reprises, fouiller les journaux Linux des systèmes, du essayer des réparations, et aujourd'hui j'arrive plus simplement à identifier des problèmes dans mon code ou dans une infrastructure existante.",
+                learn4: "Travailler sur les images systèmes m'a permis de développer mes compétences en bash et en python. J'ai pu comprendre comment fonctionne le système d'overlayfs, les unités systemd et j'ai pu acquérir des bases de conteneurisation. De plus, j'ai découvert l'outil mkosi, outil créé par l'équipe de systemd, permettant de générer des images systèmes debian prêtes à être utilisées.",
+                learn5: "La gestion de parc informatique m'a appris l'utilisation d'outils comme Mender, un outil permettant de déployer des mises à jour sur les machines d'un parc informatique. De plus, il permet d'effectuer l'inventaire des machines (comme les adresses réseau, des variables d'environnement, ou tout simplement l'état de la machine) et l'exécution de scripts personnalisés. Par ailleurs, j'ai pu expérimenter avec OpenVPN et j'ai pu effleurer une partie de son fonctionnement.",
+                learn6: "L'application de centralisation de données m'a permis d'apprendre et comprendre le langage TypeScript, ainsi que le fonctionnement de NestJS et de VueJS. J'ai appris cet ensemble en autodidacte à l'aide des documentations en ligne.",
+                learn7: "Enfin, j'ai eu l'occasion d'utiliser Notion, un outil de collaboration en entreprise. J'ai écrit des documentations que j'ai pu mettre à disposition à mes collègues, notamment.",
+
+                conclusion: "En conclusion",
+                conclusion1: "Cette expérience est très enrichissante. Malgré le départ de mon tuteur en début d'alternance, j'ai su garder une autonomie conséquente. J'apprends le monde du travail, à travailler en équipe et je peux enfin faire une application concrète de ce que j'ai pu apprendre en cours. L'apprentissage du JavaScript et du TypeScript ont été prolifiques et m'ont permis de rédiger ce site web."
+
             }
-
-
-
-
-
         }
     }
 })

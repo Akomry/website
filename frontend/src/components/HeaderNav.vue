@@ -1,6 +1,6 @@
 <template>
   <nav class="font-bigger">
-    <RouterLink to="/alternance" class="nav-li">{{ $t('nav.alt') }}</RouterLink>
+    <RouterLink to="/apprenticeship" class="nav-li">{{ $t('nav.alt') }}</RouterLink>
     <RouterLink to="/cv" class="nav-li">{{ $t('nav.cv') }}</RouterLink>
     <RouterLink to="/about" class="nav-li">{{ $t('nav.about') }}</RouterLink>
     <RouterLink to="/" class="nav-li">{{ $t('nav.home') }}</RouterLink>

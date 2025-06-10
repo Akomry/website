@@ -352,7 +352,7 @@
       $size: math.random(5);
 
       position: absolute;
-      top: math.random(200) - 1 + vh;
+      top: math.random(270) - 1 + vh;
       left: math.random(100) - 1 + vw;
       width: $size + px;
       height: $size + px;
