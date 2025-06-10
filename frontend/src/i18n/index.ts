@@ -35,12 +35,19 @@ const i18n = createI18n({
                 allemand: 'German : Solid foundations (A2)',
 
                 comp: 'Skills',
-                prog: 'Programming',
+                prog: 'Programming (Python, Bash, Java, JavaScript, TypeScript)',
                 devnet: 'Develop an app based on a network protocol',
                 cont: 'Containerize and manage a Docker infrastructure',
                 ad: 'Setup and manage an Active Directory infrastructure',
                 db: 'Setup and manage a Database Management System',
-                automate: 'Automate administration tasks using scripting and Ansible'
+                automate: 'Automate administration tasks using scripting and Ansible',
+
+                experience: "Experience",
+                impactiv: "IT and networking technician in an apprenticeship.",
+                now: "Now",
+
+                cv: "Find my resume",
+                here: "here"
             },
             about: {
                 title: 'Who am I?',
@@ -184,12 +191,19 @@ const i18n = createI18n({
                 allemand: 'Allemand : Bases solides (A2)',
 
                 comp: 'Compétences',
-                prog: 'Programmation',
+                prog: 'Programmation (Python, Bash, Java, JavaScript, TypeScript)',
                 devnet: 'Développer une application basée sur un protocole réseau',
                 cont: 'Conteneuriser et maintenir une infrastructure Docker',
                 ad: 'Installer et configurer un serveur Active Directory',
                 db: 'Mettre en place et maintenir une SGBD',
                 automate: 'Automatiser les tâches d\'administration avec du scripting et Ansible',
+
+                experience: "Expérience professionnelle",
+                impactiv: "Technicienne informatique et réseaux en alternance.",
+                now: "Aujourd'hui",
+
+                cv: "Téléchargez mon CV",
+                here: "ici"
             },
             about: {
                 title: 'Qui suis-je?',

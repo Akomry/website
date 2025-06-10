@@ -49,10 +49,10 @@ import {RouterLink} from "vue-router";
     </div>
 
     <div>
-      <h2>Experience</h2>
+      <h2>{{$t('cv.experience')}}</h2>
       <h3><RouterLink to="/apprenticeship">Impactiv'</RouterLink></h3>
-      <em style="font-size: smaller">2024 - Now</em>
-      <p>IT and networking technician in a co-op program.</p>
+      <em style="font-size: smaller">2024 - {{$t('cv.now')}}</em>
+      <p>{{ $t('cv.impactiv')}}</p>
     </div>
 
     <div>
